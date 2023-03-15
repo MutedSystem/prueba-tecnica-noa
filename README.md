@@ -1,38 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prueba técnica Noa Experience
+Elaborada por: Daniel Francisco Sanabria Bernal
 
-## Getting Started
+## Explicación de la prueba
 
-First, run the development server:
+Se desarrollo un grafo a partir de los datos de elementos pokemon y los pokemon en sí, obtenidos de la Pokemon API usando su integración de GraphQL
+
+Para iniciar el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
+# o
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) para ver los resultados.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Tecnologías usadas
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Las tecnologías usadas fueron las siguientes:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**1. NextJS:** Framework de React que permite crear aplicaciones web con renderizado del lado del servidor (SSR) y pre-renderizado estático (SSG).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**2. TailwindCSS:** Paquete de estilos que facilitan la implementación del diseño visual de la aplicación.
 
-## Learn More
+**3. Axios:** Paquete para que facilita realizar peticiones HTTP de manera más simple.
 
-To learn more about Next.js, take a look at the following resources:
+**4. ForceGraph:** Paquete que permite la creación de grafos 2D y 3D.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**5. PokemonAPI (GraphQL):** API utilizada para la obtención de la información utilizada en la página. 
